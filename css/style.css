@@ -1,0 +1,99 @@
+body {
+  background: #4AB0B1;
+}
+
+.main__section {
+  max-width: 600px;
+  margin: 150px auto 0;
+}
+.main__section form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.main__section form input {
+  height: 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+.main__section form input:focus {
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+.main__section form button {
+  margin-top: 10px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid #7676ef;
+  background: #7676ef;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.main__section form button:hover {
+  background: #fff;
+  color: black;
+}
+.main__section .add__section {
+  height: 150px;
+  background: #fff;
+  border-radius: 14px;
+}
+
+.show__todo__section {
+  margin-top: 50px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.todo__item {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 550px;
+  margin: 0 auto;
+  height: 100px;
+  margin-top: 30px;
+  cursor: move;
+}
+.todo__item__title {
+  padding: 20px;
+  display: flex;
+}
+.todo__item__title h2 {
+  padding-left: 10px;
+  margin: 0;
+}
+.todo__item__title input {
+  width: 20px;
+  height: 20px;
+}
+.todo__item__title .checked {
+  text-decoration: line-through;
+  color: #c8c8c8;
+}
+.todo__item small {
+  padding-left: 55px;
+}
+.todo__item .remove__todo {
+  float: right;
+  margin: 20px;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  color: red;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 21px;
+}
+.todo__item .remove__todo:hover {
+  color: #fff;
+  background: red;
+  border-radius: 12.5px;
+  transition: 0.3s;
+}
+
+/*# sourceMappingURL=style.css.map */
